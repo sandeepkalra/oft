@@ -6,11 +6,12 @@
 
 typedef unsigned char	oftU8;
 typedef signed char 	oftI8;
+
 typedef unsigned short	oftU16;
 typedef signed short 	oftI16;
-typedef unsigned short 	oftU16;
-typedef signed int 		oftI32;
+
 typedef unsigned int 	oftU32;
+typedef signed int 		oftI32;
 
 #define oftMin(a,b) ((a<b)?(a):(b))
 #define oftMax(a,b) ((a>b)?(a):(b))
